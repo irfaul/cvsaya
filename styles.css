@@ -1,0 +1,124 @@
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar sticky */
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+/* posisi navbar disebelah kiri */
+
+li {
+    float: left;
+    list-style: none;
+}
+
+/* mengatur dekorasi link navigasi */
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* efek hover pada link navigasi */
+
+li a:hover:not(.active) {
+    background-color:#ddd;
+}
+
+/* untuk menampilkan halaman yang aktif*/
+
+li a.active {
+    color:white;
+    background-color:#72ab00;
+}
+
+/* memberi ukuran tinggi kolom navigasi dan juga warna background */
+
+.nav {
+    color: white;
+    background-color: black;
+    height: 46px;
+}
+
+/* menengahkan semua elemen header */
+
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    max-width: 100%;
+}
+
+/* mengatur gambar agar bentuk bulat */
+
+img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+/* mengatur font pada header */
+
+.header h1 {
+    color: #72ab00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header h2,h3,h4 {
+    color: #72ab00;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+/* mangatur tampilan link sosial media */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: #3B5998;
+}
+
+.fa-twitter {
+    background:white;
+    color:#55ACEE;
+}
+
+.fa-google {
+    background:white;
+    color:#dd4b39;
+}
+
+.fa-linkedin {
+    background:white;
+    color:#007bb5;
+}
