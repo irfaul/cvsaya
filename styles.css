@@ -39,6 +39,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color:#ddd;
+    color: #72ab00;
 }
 
 /* untuk menampilkan halaman yang aktif*/
@@ -68,7 +69,7 @@ li a.active {
 
 /* mengatur gambar agar bentuk bulat */
 
-img {
+.img-profil {
     border-radius: 50%;
     width: 250px;
 }
@@ -125,7 +126,7 @@ h2,h3,h4 {
 
 main{
     padding: 20px;
-    height: 1050px;
+    overflow: auto;
     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     width: 100%;
 }
@@ -139,6 +140,12 @@ main{
 
 #content h2,h3,h4,h5, p {
     padding: 12px;
+}
+
+.img-gallery {
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 aside {
